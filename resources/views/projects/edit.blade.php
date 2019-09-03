@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 
-    <h1>Edit Project</h1>
+    <h1>Edit the Project</h1>
     <form method="POST" action="/projects/{{ $project->id }}">
        @method('PATCH')
         @csrf
